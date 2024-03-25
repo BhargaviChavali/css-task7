@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    .fb{
+        height:155vh;
+        width:200vh;
+        border:2px solid;
+        display:flex;
+        justify-content: space-around;
+        background-color: darkkhaki;
+        padding-top: 100px;
+        flex-flow: row wrap;
+        column-gap: 10px;
+        :hover{
+            background-color: rgb(87, 87, 157);
+        }
+        
+
+    }
+    h1{
+        margin-bottom: 100px;
+    
+    }
+    .break{
+        flex-basis: 100%;
+        height:0;
+    }
+    .cd{
+        height:80px;
+        width:120px;
+        background-color: rgb(234, 88, 88);
+        border-radius: 50%;
+        margin-bottom: 800px;
+        
+    }
+    .cd1,.cd2,.cd3,.cd4,.cd5,.cd6,.cd7{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .dd{
+            border:1px solid;
+            width: 40px;
+            height: 40px;
+            padding:20px 20px 20px;
+            border-radius: 20px;
+            position:absolute;
+            
+        }
+    .dd1{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 810px;
+        margin-top: 300px;
+
+    }
+    .dd2{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 1200px;
+        margin-top: 300px;
+    }
+    .dd3{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 1200px;
+        margin-top: 400px;
+    }
+    .dd4{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 790px;
+        margin-top: 400px;
+    }
+    .dd5{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 380px;
+        margin-top: 400px;
+    }
+    .dd6{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 3px;
+        margin-top: 400px;
+    }
+    .dd7{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        margin-left:410px;
+        margin-top: 400px;
+    }
+    .dd8{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 810px;
+        margin-top: 400px;
+        background-color: rgb(187, 153, 187);
+        flex-wrap: wrap;
+    }
+    .dd9{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 1200px;
+        margin-top: 400px;
+    }
+    .dd10{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 1200px;
+        margin-top: 500px;
+    }
+    .dd11{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 790px;
+        margin-top: 500px;
+    }
+    .dd12{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 380px;
+        margin-top: 500px;
+    }
+    .dd13{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 3px;
+        margin-top: 500px;
+    }
+    .dd14{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        margin-left:410px;
+        margin-top: 500px;
+    }
+    .dd15{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 810px;
+        margin-top: 500px;
+    }
+    .dd16{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 1200px;
+        margin-top: 500px;
+    }
+    .dd17{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 1200px;
+        margin-top: 600px;
+    }
+    .dd18{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 790px;
+        margin-top: 600px;
+    }
+    .dd19{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 380px;
+        margin-top: 600px;
+    }
+    .dd20{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 3px;
+        margin-top: 600px;
+    }
+    .dd21{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        margin-left:410px;
+        margin-top: 600px;
+    }
+    .dd22{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 810px;
+        margin-top: 600px;
+    }
+    .dd23{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 1200px;
+        margin-top: 600px;
+    }
+    .dd24{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 1200px;
+        margin-top: 700px;
+    }
+    .dd25{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 790px;
+        margin-top: 700px;
+        background-color: rgb(187, 153, 187);
+    }
+    .dd26{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 380px;
+        margin-top: 700px;
+    }
+    .dd27{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 3px;
+        margin-top: 700px;
+    }
+    .dd28{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        margin-left:410px;
+        margin-top: 700px;
+    }
+    .dd29{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 810px;
+        margin-top: 700px;
+        background-color: rgb(187, 153, 187);
+    }
+    .dd30{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 1200px;
+        margin-top: 700px;
+    }
+    .dd31{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 1200px;
+        margin-top: 800px;
+        background-color: rgb(187, 153, 187);
+    }
+    
+    </style>
+</head>
+<body>
+    <center>
+    <div class="fb"> 
+        <h1 style="font-size: 50px;">MARCH 2024</h1>
+        <div class="break"></div>
+        <div class="cd cd1"><p>SUNDAY</p></div>
+        <div class="cd cd2"><p>MONDAY</p></div>
+        <div class="cd cd3"><p>TUESDAY</p></div>
+        <div class="cd cd4"><p>WEDNESSDAY</p></div>
+        <div class="cd cd5"><p>THURSDAY</p></div>
+        <div class="cd cd6"><p>FRIDAY</p></div>
+        <div class="cd cd7"><p>SATURDAY</p></div>
+        <div class="break"></div>
+        <div class="dd dd1"><p>1</p></div>
+        <div class="dd dd2"><p>2</p></div>  
+        <div class="dd dd3"><p>3</p></div>
+        <div class="dd dd4"><p>4</p></div>
+        <div class="dd dd5"><p>5</p></div>
+        <div class="dd dd6"><p>6</p></div>
+        <div class="dd dd7"><p>7</p></div>
+        <div class="dd dd8"><p style="font-size: 15px;color: red;">8 sivarathri</p></div>
+        <div class="dd dd9"><p>9</p></div>
+        <div class="dd dd10"><p>10</p></div>
+        <div class="dd dd11"><p>11</p></div>
+        <div class="dd dd12"><p>12</p></div>
+        <div class="dd dd13"><p>13</p></div>
+        <div class="dd dd14"><p>14</p></div>
+        <div class="dd dd15"><p>15</p></div>
+        <div class="dd dd16"><p>16</p></div>
+        <div class="dd dd17"><p>17</p></div>
+        <div class="dd dd18"><p>18</p></div>
+        <div class="dd dd19"><p>19</p></div>
+        <div class="dd dd20"><p>20</p></div>
+        <div class="dd dd21"><p>21</p></div>
+        <div class="dd dd22"><p>22</p></div>
+        <div class="dd dd23"><p>23</p></div>
+        <div class="dd dd24"><p>24</p></div> 
+        <div class="dd dd25"><p style="font-size: 15px;color: red;">25 Holi</p></div>
+        <div class="dd dd26"><p>26</p></div>
+        <div class="dd dd27"><p>27</p></div>
+        <div class="dd dd28"><p>28</p></div>
+        <div class="dd dd29"><p style="font-size: 15px; color:red">29 Good Friday</p></div>
+        <div class="dd dd30"><p>30</p></div>
+        <div class="dd dd31"><p style="font-size: 15px; color:red">31 Easter</p></div>
+        
+          
+    </div>
+        
+</div>
+</center>
+</body>
+</html>
